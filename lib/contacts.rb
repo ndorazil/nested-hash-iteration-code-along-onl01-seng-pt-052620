@@ -15,9 +15,10 @@ require 'pry'
   # }
   
 def remove_strawberry(contacts)
-  if person == "Freddy Mercury"
-    contacts.each do |person, contact_details_hash|
-      binding.pry
+  contacts.each do |person, contact_details_hash|
+    if person == "Freddy Mercury"
+      contacts_details_hash.each do |attribute, data|
+        binding.pry
     end
   end
 end
